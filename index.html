@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAD Creators</title>
     <!--Essential css files-->
-    <link rel="stylesheet" href="assets/css/all.css">
+    <!-- <link rel="stylesheet" href="assets/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -27,10 +28,17 @@
     <!-- Start Top To Scroll Button -->
 
     <!-- Start Header Area3 -->
-    <header class="header-area-1 header-area-2 header-area-3 header-sticky">
+    <header class="header-area-1  header-sticky">
         <span class="extra-box-border"></span>
         <div class="container">
             <div class="header-wrapper">
+                
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="VRE">
+                    </a>
+                </div>
+                
                 <div class="menu-bar">
                     <a href="#" class="menu-bar-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="49" height="15" viewBox="0 0 49 15" fill="#CCDEFF">
@@ -41,18 +49,14 @@
                         </svg>
                     </a>
                 </div>
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="assets/images/logo/logo.png" alt="VRE">
-                    </a>
-                </div>
+                
                 <div class="main-menu">
                     <ul>
-                        <li><a href="index.html" class="font-size-1-18 transition-1">Home</a></li>
+                        <li><a href="index.html" class="active font-size-1-18 transition-1">Home</a></li>
                         <li><a href="about.html" class="font-size-1-18 transition-1">About</a></li>
                         <li><a href="services.html" class="font-size-1-18 transition-1">Services</a></li>
                         <li><a href="blog-grid.html" class="font-size-1-18 transition-1">Blog</a></li>
-                        <li><a href="project-grid.html" class="font-size-1-18 transition-1">Protfolio</a></li>
+                        <li><a href="project-grid.html" class="font-size-1-18 transition-1">Portfolio</a></li>
                     </ul>
                 </div>
                 <div class="get-in-touch">
@@ -64,11 +68,11 @@
     <!-- End Header Area3 -->
 
     <!-- Start Search Bar Popup Home 2 -->
-    <div class="search-bar home-3">
+    <div class="search-bar home-1">
         <div class="search">
             <form action="#">
-                <input type="text" placeholder="Search Here ....">                
-                <button type="submit" class="btn-3 br-0">Search</button>
+                <input type="text" placeholder="Search Here ....">
+                <input type="submit" value="Search" class="btn-primary-style btn-2 hero-info-btn btn-3 btn-4">
             </form>
         </div>
         <a href="javascript:void(0)" class="search-popup-close"><i class="fa-solid fa-xmark"></i></a>
@@ -80,95 +84,55 @@
         <button class="close-menu float-end"><i class="fa-solid fa-xmark"></i></button>
         <a class='mobile-menu-logo' href="index-2.html"><img src="assets/images/logo/logo.png" alt="VRE"></a>
         <ul>
-            <li class="has-submenu"><a href="javascript:void(0)">Home</a>
-                <ul class="submenu-wrapper">
-                    <li><a href="index.html">Home Page 1</a></li>
-                    <li><a href="index-2.html">Home Page 2</a></li>
-                    <li><a href="index-3.html">Home Page 3</a></li>
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="javascript:void(0)">Pages</a>
-                <ul class="submenu-wrapper">
-                    <li><a href="about.html" class="font-size-1-18">About</a></li>
-                    <li><a href="team.html" class="font-size-1-18">Team</a></li>
-                    <li><a href="team-details.html" class="font-size-1-18">Team Details</a></li>
-                    <li><a href="price.html" class="font-size-1-18">Price</a></li>
-                    <li><a href="faq.html" class="font-size-1-18">Faq</a></li>
-                    <li><a href="404.html" class="font-size-1-18">404</a></li>
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="javascript:void(0)">services</a>
-                <ul class="submenu-wrapper">
-                    <li><a href="services.html" class="font-size-1-18">Services</a></li>
-                    <li><a href="services-details.html" class="font-size-1-18">Services Details</a></li>
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="javascript:void(0)">Blog</a>
-                <ul class="submenu-wrapper">
-                    <li><a href="blog-grid.html" class="font-size-1-18">Blog Grid</a></li>
-                    <li><a href="blog-standart.html" class="font-size-1-18">Blog Standart</a></li>
-                    <li><a href="blog-details.html" class="font-size-1-18">Blog Details</a></li>
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="javascript:void(0)">Portfolio</a>
-                <ul class="submenu-wrapper">
-                    <li><a href="project-grid.html" class="font-size-1-18">Portfolio Grid</a></li>
-                    <li><a href="project-details.html" class="font-size-1-18">Portfolio Details</a></li>
-                </ul>
-            </li>
-            <li class="has-submenu"><a href="contact.html">Contact</a>
-            </li>
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="about.html">About</a></li>
+            <li class=""><a href="services.html">Services</a></li>
+            <li class=""><a href="blog-grid.html">Blog</a></li>
+            <li class=""><a href="">Portfolio</a></li>
+            <li class=""><a href="contact.html">Contact</a></li>
         </ul>
-        <div class="search-form">
-            <form action="#">
-                <input type="text" placeholder="Search...">
-                <button type="submit" class="border-0">Go</button>
-            </form>
-        </div>
         <div class="phone-number-mobile-menu">
             <a href="#">+8 (123) 985 789</a>
         </div>
         <div class="mobile-menu-copy-right-text">
-            <p>Copyright © 2026 - Powered by <a href="index.html">DAD Creators</a></p>
+            <p>©2026 - Powered by <a href="index.html">DAD Creators</a></p>
         </div>
     </div>
     <!-- End Mobile Menu Home 3-->
 
     <!-- Start Hero Area 1 -->
-    <section class="hero-area">
+    <section class="hero-area-1 hero-area-1">
         <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="hero-area-1-shep-1">
         <img src="assets/images/shep/bg-blur-shep-1.png" alt="VRE" class="hero-area-1-shep-2">
-        <div class="hero-wrapper">
-            <div class="container">
-                <div class="hero-inner">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-8">
-                            <div class="hero-title">
-                                <h2 class="font-size-1-60 split-collab" id="quote">A Fully Integrated Digital
-                                    <br>Marketing Agency</h2>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="hero-sub-title">
-                                <p class="font-size-1-18 vre-slide-up-gsap">Maximize your online visibility and increase organic
-                                    traffic for your business.</p>
-                                <div class="hero-1-btn vre-slide-up-gsap">
-                                    <a href="#" class="font-size-1-18 btn-3">Get Started
-                                    </a>
-                                </div>
+        <div class="container hero-wrapper">
+            <div class="hero-inner">
+                <div class="hero-inner-left">
+                    <div class="hero-title">
+                        <h2 class="font-size-1-70 mb-40 split-collab">
+                            Digital Marketing For Your Business 
+                            <span class="home-1-hero-text-shep"><img src="assets/images/shep/text-shep-1.png" alt="VRE">
+                            </span>
+                        </h2>
+                        <p class="font-size-1-20">At Coalition Technologies, we tightly weave our website
+                            design and search engineoptimization work to exceed our clients goals.</p>
+                        <div class="hero-info mt-50">
+                            <a href="#" class="font-size-1-20 btn-1">Free Trail Now</a>
+                            <div class="some-clients-view">
+                                <img src="assets/images/hero/rating.webp" alt="VRE">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="hero-img-banner">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="hero-banner-img-inner vre-reveal-one">
-                                <img src="assets/images/banner/home-3-hero-slider.webp" alt="VRE"
-                                    class="vre-reveal-image-one">
-                            </div>
-                        </div>
-                    </div>
+                <div class="hero-1-banner hero-1-banner">
+                    <img src="assets/images/banner/home-1-hero-slider.webp" alt="VRE" class="banner-big-img vre-slide-down-gsap">
+                    <img src="assets/images/shep/home-3-hero-banner-shep-1.png" alt="VRE"
+                        class="home-1-hero-banner-shep-1 vre-slide-up-gsap">
+                    <img src="assets/images/shep/home-3-hero-banner-shep-2.png" alt="VRE"
+                        class="home-1-hero-banner-shep-2 vre-slide-up-gsap">
+                    <img src="assets/images/shep/home-3-hero-banner-shep-3.png" alt="VRE"
+                        class="home-1-hero-banner-shep-3 vre-slide-up-gsap">
+                    <img src="assets/images/shep/home-3-hero-banner-shep-4.png" alt="VRE"
+                        class="home-1-hero-banner-shep-4 vre-slide-up-gsap">
                 </div>
             </div>
         </div>
@@ -1049,7 +1013,7 @@
                             </div>
                             <div class="contact-text">
                                 <p class="font-size-1-16">Any Questions? Call us</p>
-                                <h5 class="font-size-1-26">+1 (246) 333 0079</h5>
+                                <h5 class="font-size-1-26">+91 82707 00200</h5>
                             </div>
                         </div>
                         <div class="contact-info-inner">
@@ -1096,7 +1060,7 @@
                             </div>
                             <div class="contact-text">
                                 <p class="font-size-1-16">Any Questions? Email us</p>
-                                <h5 class="font-size-1-26">example@gmail.com</h5>
+                                <h5 class="font-size-1-26">info@dadcreators.com</h5>
                             </div>
                         </div>
                         <div class="contact-info-inner">
@@ -1136,7 +1100,7 @@
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
-                        <span class="font-size-1-18">4.8 / 5.0</span>
+                        <span class="font-size-1-18">4.9 / 5.0</span>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 offset-lg-1 offset-xl-1">
@@ -1517,8 +1481,8 @@
                                         d="M19.7441 12.9814C19.5757 12.9814 19.4142 12.909 19.2951 12.7801C19.176 12.6511 19.1091 12.4763 19.1091 12.2939V5.32957C19.1075 4.98916 18.9818 4.6632 18.7595 4.42249C18.5372 4.18178 18.2362 4.04575 17.9218 4.04395H5.14078C4.97239 4.04395 4.8109 3.97151 4.69182 3.84258C4.57275 3.71365 4.50586 3.53878 4.50586 3.35645C4.50586 3.17411 4.57275 2.99924 4.69182 2.87031C4.8109 2.74138 4.97239 2.66895 5.14078 2.66895H17.9218C18.573 2.67076 19.197 2.95166 19.6574 3.45023C20.1179 3.9488 20.3773 4.62449 20.379 5.32957V12.2939C20.379 12.4763 20.3121 12.6511 20.193 12.7801C20.0739 12.909 19.9124 12.9814 19.7441 12.9814Z"
                                         fill="#FF4A3B" />
                                 </svg>
-                                needhelp@company.com <br>
-                                +92 666 888 0000
+                                info@dadcreators.com <br>
+                                +91 82707 00200
                             </span>
                         </div>
                     </div>
@@ -1605,8 +1569,8 @@
                                 fill="#FF4A3B" />
                         </svg>
                     </div>
-                    <p class="font-size-1-18">PERFECT SOLUTION From <span>Land Owner <br>
-                            +92 666 888 0000</span></p>
+                    <p class="font-size-1-18">PERFECT SOLUTION From <span>DAD <br>
+                            +91 82707 00200</span></p>
                 </div>
             </div>
             <div class="footer-copyright">
@@ -1616,8 +1580,8 @@
                 <div class="footer-copyright-social-icon">
                     <ul>
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
                     </ul>
                 </div>
